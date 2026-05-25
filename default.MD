@@ -1,5 +1,5 @@
 # Extract Metadata
-<b exiftool /b> image.jpg
+**exiftool** image.jpg
 strings image.jpg
 file image.jpg
 
