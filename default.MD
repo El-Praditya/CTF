@@ -11,3 +11,4 @@ file image.jpg
 |binwalk|file disisipkan|binwalk -e image.jpg|
 |strings|melihat daleman executable|strings file|
 |zsteg|ekstrak data PNG/BMP|zsteg file.png|
+|steghide|extract data dari img/audio.|steghide info file.bpm OR steghide extract -sf picture1.bmp|
