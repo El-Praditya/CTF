@@ -20,3 +20,7 @@ icat -o 360448 disk.flag.img 1234
 
 # Mempersatukan pecahan-zip
 cat part_1 part_2 > archive.zip
+
+# Read file via emacs
+sudo /PATH/emacs
+alt + x - type "shell"
