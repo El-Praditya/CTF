@@ -28,3 +28,6 @@ alt + x - type "shell"
 # Unlock file.enc using RSA.key
 wc -c file.enc (256=RSA-2048 & 512=RSA-4096)
 openssl pkeyutl -decrypt -inkey key.key -in flag.enc (for 256)
+
+# Copy isi file.txt
+cat file.txt | xclip -selection clipboard
