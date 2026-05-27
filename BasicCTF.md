@@ -7,7 +7,6 @@ icat -o 360448 disk.flag.img 1234
 2. tcp contains "pico"
 
 # Ping exploitation
-1. 8.8.8.8 ;
 
 | notasi | syntax |
 |--------|--------|
