@@ -8,6 +8,7 @@ icat -o 360448 disk.flag.img 1234
 
 # Ping exploitation
 1. 8.8.8.8 ;
+
 | notasi | syntax |
 |--------|--------|
 | ; | 1.1.1.1; ls |
