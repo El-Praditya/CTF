@@ -18,3 +18,5 @@ icat -o 360448 disk.flag.img 1234
 | (double pipe) | 1.1.1.1 (double pipe) ls |
 | (single pipe) | 1.1.1.1 (single pipe) ls |
 
+# Mempersatukan pecahan-zip
+cat part_1 part_2 > archive.zip
