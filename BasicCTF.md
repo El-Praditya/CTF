@@ -5,3 +5,17 @@ icat -o 360448 disk.flag.img 1234
 # Network Forensic (wireshark)
 1. tcp.stream eq 5
 2. tcp contains "pico"
+
+# Ping exploitation
+1. 8.8.8.8 ;
+|notasi|syntax|
+|------|------|
+|;||
+|&&||
+|||||
+||||
+|$||
+|``||
+|$()||
+|%0a||
+|&||
