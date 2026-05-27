@@ -16,5 +16,5 @@ icat -o 360448 disk.flag.img 1234
 |``| (masih gacha) 8.8.8.8`ls` |
 |$|(masih gacha) 8.8.8.8$(id)|
 | (double pipe) | 1.1.1.1 (double pipe) ls |
-| | | 1.1.1.1 | ls |
+| (single pipe) | 1.1.1.1 (single pipe) ls |
 
