@@ -32,5 +32,5 @@ openssl pkeyutl -decrypt -inkey key.key -in flag.enc (for 256)
 # Copy isi file.txt
 cat file.txt | xclip -selection clipboard
 
-# Copy teks di dalam gambar
+# Copy teks di dalam gambar (kadang typo, mending pake G-LENS)
 tesseract file.png output
