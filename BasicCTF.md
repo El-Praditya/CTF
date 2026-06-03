@@ -35,6 +35,11 @@ openssl pkeyutl -decrypt -inkey key.key -in flag.enc (for 256)
 # Copy isi file.txt
 cat file.txt | xclip -selection clipboard
 
+# Tools nembuka foto
+1. feh file.png
+2. shotwell file.png
+3. open file.png
+
 # Copy teks di dalam gambar (kadang typo, mending pake G-LENS)
 tesseract file.png output
 
