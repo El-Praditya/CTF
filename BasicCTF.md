@@ -7,7 +7,7 @@ icat -o 360448 disk.flag.img 1234
 1. tcp.stream eq 5
 2. tcp contains "pico"
 ## Tshark
-tshark -r file.pcap -T fields -e tcp.payload
+tshark -r file.pcap -T fields -e tcp.payload (tcp.seq - ip.src - dns.qry.name - http.host - http.user_agent)
 
 # Ping exploitation
 
@@ -37,3 +37,6 @@ cat file.txt | xclip -selection clipboard
 
 # Copy teks di dalam gambar (kadang typo, mending pake G-LENS)
 tesseract file.png output
+
+# Checksum256
+sha256sum files/* | grep "3ad3"
