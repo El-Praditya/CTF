@@ -3,8 +3,11 @@ fls -r -o 360448 disk.flag.img | grep -Ei "flag|txt|secret|hidden"
 icat -o 360448 disk.flag.img 1234
 
 # Network Forensic (wireshark)
+## Filter Wireshark
 1. tcp.stream eq 5
 2. tcp contains "pico"
+## Tshark
+tshark -r file.pcap -T fields -e tcp.payload
 
 # Ping exploitation
 
