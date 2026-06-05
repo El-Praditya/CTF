@@ -49,3 +49,7 @@ sha256sum files/* | grep "3ad3"
 # Cara mengetahui commit yang udah dihapus (github)
 git log --all --oneline(ini opsional)
 git show 092h98duh872qiasgd98ih9
+
+# Biner calculator
+1. https://seomagnifier.com/binary-calculator (legkap)
+2. https://www.rapidtables.com/calc/math/binary-calculator.html
