@@ -47,4 +47,5 @@ tesseract file.png output
 sha256sum files/* | grep "3ad3"
 
 # Cara mengetahui commit yang udah dihapus (github)
-1. git log --all --oneline(ini opsional)
+git log --all --oneline(ini opsional)
+git show 092h98duh872qiasgd98ih9
