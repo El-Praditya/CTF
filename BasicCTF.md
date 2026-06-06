@@ -53,3 +53,8 @@ git show 092h98duh872qiasgd98ih9
 # Biner calculator
 1. https://seomagnifier.com/binary-calculator (legkap)
 2. https://www.rapidtables.com/calc/math/binary-calculator.html
+
+# Konek SQL
+sqlite3 user.db (masuk ke user.db)
+.tables
+SELECT * FROM blabal;
