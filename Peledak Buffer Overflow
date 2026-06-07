@@ -1,3 +1,5 @@
+# objdump -d vuln | grep win (untuk cari alamat win() )
+
 from pwn import *
 
 # TARGET
