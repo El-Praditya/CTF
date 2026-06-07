@@ -1,4 +1,6 @@
-# objdump -d vuln | grep win (untuk cari alamat win() )
+# objdump -d vuln | grep "<" (semacam "ls" nya)
+# nm vuln | grep " T " (semacam "ls" nya)
+
 
 from pwn import *
 
