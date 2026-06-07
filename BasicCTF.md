@@ -61,3 +61,6 @@ SELECT * FROM blabal;
 
 # Run command via nano
 ^R^X - cat flat.txt
+
+# Windows Forensic
+FTK Imager
