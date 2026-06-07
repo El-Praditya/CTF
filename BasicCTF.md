@@ -58,3 +58,6 @@ git show 092h98duh872qiasgd98ih9
 sqlite3 user.db (masuk ke user.db)
 .tables
 SELECT * FROM blabal;
+
+# Run command via nano
+^R^X - cat flat.txt
