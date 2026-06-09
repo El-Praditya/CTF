@@ -64,3 +64,7 @@ SELECT * FROM blabal;
 
 # Windows Forensic
 FTK Imager
+
+# CURL
+1. curl http://target.com = inspect target.com
+2. curl -I http://target.com = lihar response header target.com
