@@ -1,7 +1,4 @@
-# objdump -d vuln | grep "<" (semacam "ls" nya)
-# nm vuln | grep " T " (semacam "ls" nya)
-
-
+# ini .py yahhh
 from pwn import *
 
 # TARGET
