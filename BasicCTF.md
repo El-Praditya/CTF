@@ -62,16 +62,6 @@ SELECT * FROM blabal;
 # Run command via nano
 ^R^X - cat flat.txt
 
-## Reverse & Forensic
-# Windows Forensic
-FTK Imager
-
-# Decompile
-Ghidra
-
-# objdump
-Dissamble
-
 # CURL
 1. curl http://target.com = inspect target.com
 2. curl -I http://target.com = lihar response header target.com
