@@ -11,5 +11,14 @@ tshark -r file.pcap -T fields -e tcp.payload (tcp.seq - ip.src - dns.qry.name - 
 # Decompile
 Ghidra
 
-# objdump
-Dissamble
+# objdump. For dissamble 
+objdump -d vuln | grep "<"
+
+# gdb. For run line by line
+gdb namafile
+
+# nm. For cari fungsi kyk main() win() flag()
+nm vuln | grep " T "
+
+# xxd. Melihat HEX
+xxd file.png
