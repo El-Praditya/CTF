@@ -62,8 +62,12 @@ SELECT * FROM blabal;
 # Run command via nano
 ^R^X - cat flat.txt
 
+## Reverse & Forensic
 # Windows Forensic
 FTK Imager
+
+# Decompile
+Ghidra
 
 # CURL
 1. curl http://target.com = inspect target.com
