@@ -5,7 +5,7 @@ icat -o 360448 disk.flag.img 1234
 # Echo
 |Syntax|Fungsi|
 |------|------|
-|test; echo pwned|Membuktikan "command injection"|
+|test; echo pwned OR test; ls|Membuktikan "command injection"|
 |echo `ls` OR echo $(ls)|untuk ls|
 |echo `cat flag.txt` OR echo $(cat flag.txt) OR echo $(<flag.txt)| untuk open flag.txt|
 
