@@ -6,7 +6,7 @@ file image.jpg
 
 | Tool | Fungsi | Syntax |
 |------|--------|--------|
-| exiftool|extract metadata| exiftool file_sasa.jpg|
+| exiftool|lihat latitude-longitude| exiftool -n foto.jpg|
 |binwalk|file disisipkan|binwalk -e image.jpg|
 |strings|melihat daleman executable|strings file|
 |zsteg|ekstrak data PNG/BMP|zsteg file.png|
