@@ -2,6 +2,13 @@
 fls -r -o 360448 disk.flag.img | grep -Ei "flag|txt|secret|hidden"
 icat -o 360448 disk.flag.img 1234
 
+# Echo
+|Syntax|Fungsi|
+|test; echo pwned|Membuktikan "command injection"|
+|echo `ls` OR echo $(ls)|untuk ls|
+|echo `cat flag.txt` OR echo $(cat flag.txt) OR echo $(<flag.txt)| untuk open flag.txt|
+
+
 # Ping exploitation
 
 | notasi | syntax |
