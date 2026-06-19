@@ -9,6 +9,9 @@ icat -o 360448 disk.flag.img 1234
 |echo `ls` OR echo $(ls)|untuk ls|
 |echo `cat flag.txt` OR echo $(cat flag.txt) OR echo $(<flag.txt)| untuk open flag.txt|
 
+# ls Kena blokir
+1. echo *
+2. echo * .*
 
 # Ping exploitation
 
