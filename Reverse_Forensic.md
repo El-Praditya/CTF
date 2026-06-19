@@ -25,3 +25,7 @@ nm vuln | grep " T "
 
 # xxd. Melihat HEX
 xxd file.png
+
+# Bongkar file.java
+1. cp file.java file.class
+2. javap -c file.class
