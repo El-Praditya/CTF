@@ -15,6 +15,7 @@ icat -o 360448 disk.flag.img 1234
 # cat Kena blokir
 1. more flag.txt
 2. less flag.txt
+3. sed '' flag.txt
 
 # Ping exploitation
 
