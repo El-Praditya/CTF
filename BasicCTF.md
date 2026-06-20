@@ -12,6 +12,7 @@ icat -o 360448 disk.flag.img 1234
 # ls Kena blokir
 1. echo *
 2. echo * .*
+3. find .
 # cat Kena blokir
 1. more flag.txt
 2. less flag.txt
