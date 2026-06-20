@@ -16,8 +16,9 @@ icat -o 360448 disk.flag.img 1234
 1. more flag.txt
 2. less flag.txt
 3. sed '' flag.txt
+4. grep '' flag.txt
 # lanjutan
-echo "$(<saya.txt)"
+echo "$(<flag.txt)"
 
 # SSTI
 ## Via jinja2 
