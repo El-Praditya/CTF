@@ -18,6 +18,7 @@ icat -o 360448 disk.flag.img 1234
 2. less flag.txt
 3. sed '' flag.txt
 4. grep '' flag.txt
+5. grep . flag.txt
 # lanjutan
 echo "$(<flag.txt)"
 
