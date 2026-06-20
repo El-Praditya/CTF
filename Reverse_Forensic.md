@@ -20,6 +20,9 @@ objdump -d vuln | grep "<"
 # gdb. For run line by line
 gdb namafile
 
+# checksec. Semcam properties
+checksec --file=chall
+
 # nm. For cari fungsi kyk main() win() flag()
 nm vuln | grep " T "
 
